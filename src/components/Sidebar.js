@@ -17,7 +17,7 @@ export default function Sidebar() {
     <div className='sidebar'>
       <img
         className='profile-picture'
-        src={require('../assets/profile.png').default}
+        src={require('../assets/profile.png')}
         alt='Me'
       />
       <h1 className='page-title'>Linh Vu</h1>
