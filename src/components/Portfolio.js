@@ -57,7 +57,7 @@ export default function Portfolio() {
       <p>Check out my latest projects:</p>
       {projectDetails.map((project) => (
         <PortfoliProjectCard
-          image={project.image.default}
+          image={project.image}
           type={project.type}
           name={project.name}
           stack={project.stack.map((stack) => (
