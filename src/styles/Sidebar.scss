@@ -1,7 +1,8 @@
 .sidebar {
+  padding-top: 56px;
   margin-left: 16px;
   height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 30%; /* Set the width of the sidebar */
+  width: 35%; /* Set the width of the sidebar */
   position: sticky; /* Fixed Sidebar (stay in place on scroll) */
   display: flex;
   flex-direction: column;
@@ -9,19 +10,24 @@
 }
 
 .facts {
+  margin-top: 16px;
   display: flex;
   flex-wrap: wrap;
 }
 
-.image-background {
-  width: 50px;
-  height: 50px;
-  border: 1px solid black;
-  border-radius: 25px;
+.profile-picture {
+  width: 120px;
+  margin-bottom: 36px;
 }
+// .image-background {
+//   width: 50px;
+//   height: 50px;
+//   border: 1px solid black;
+//   border-radius: 25px;
+// }
 
-.image {
-  background-image: url('../assets/profile_pic.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-}
+// .image {
+//   background-image: url('../assets/profile_pic.png');
+//   background-size: contain;
+//   background-repeat: no-repeat;
+// }

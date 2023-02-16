@@ -6,7 +6,7 @@ import Sidebar from './components/Sidebar';
 import About from './components/About';
 import Contact from './components/Contact';
 
-import './styles/App.css';
+import './styles/App.scss';
 
 function App() {
   return (

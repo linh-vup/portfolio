@@ -1,3 +1,5 @@
+import '../styles/SkillsAndExperience.scss';
+
 const skillsList = [
   'HTML',
   'CSS',
@@ -41,23 +43,24 @@ export default function SkillsExperience() {
       <h3>Experience</h3>
       <h4>
         Software Engineering Immersive Student at General Assembly (London)
-        <span>10/2022 – 01/2023</span>
       </h4>
+      <p className='experience-date'>10/2022 – 01/2023</p>
       <p>
         12-week full-time immersive course with applied learning and development
         in frontend and backend engineering. I built multiple projects, ranging
         from games development using JavaScript, HTML and CSS to full-stack
-        applications. The course also covered fundamentals of working as a
-        developer with daily stand-ups, pair-programming, group projects and
-        using agile delivery methods.
+        applications.
       </p>
-      <h4>
-        Senior Content Creator at General Assembly (London)
-        <span>10/2022 – 01/2023</span>
-      </h4>
       <p>
-        Creatied learning content for our mobile, desktop and social platforms.
-        I worked in cross-functional teams to release new engaging learning
+        The course also covered fundamentals of working as a developer with
+        daily stand-ups, pair-programming, group projects and using agile
+        delivery methods.
+      </p>
+      <h4>Senior Content Creator at General Assembly (London)</h4>
+      <p className='experience-date'>10/2022 – 01/2023</p>
+      <p>
+        Created learning content for our mobile, desktop and social platforms. I
+        worked in cross-functional teams to release new engaging learning
         features.
       </p>
     </div>
