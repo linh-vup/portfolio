@@ -1,6 +1,8 @@
 .project-card {
-  border: 1px solid black;
-  max-width: 600px;
+  border: 2px solid #e4612e;
+  max-width: 550px;
+  margin-bottom: 16px;
+  border-radius: 16px;
 }
 
 .project-image-container {
@@ -12,4 +14,12 @@
   height: auto;
   object-fit: contain;
   border-radius: 16px;
+}
+
+.project-body {
+  padding: 0 16px;
+}
+
+.project-links {
+  margin-bottom: 16px;
 }
