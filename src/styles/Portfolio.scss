@@ -1,0 +1,15 @@
+.project-card {
+  border: 1px solid black;
+  max-width: 600px;
+}
+
+.project-image-container {
+  width: inherit;
+  height: 30%;
+}
+.project-image {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 16px;
+}
