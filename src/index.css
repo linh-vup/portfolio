@@ -4,7 +4,7 @@
 }
 
 body {
-  overflow: hidden;
+  /* overflow: hidden; */
   height: 100vh;
   margin: 0;
   display: flex;
@@ -13,17 +13,6 @@ body {
 
 li {
   text-decoration: none;
-}
-
-#root {
-  display: flex;
-  height: 100%;
-  max-width: 1200px;
-}
-
-.main {
-  overflow-y: auto;
-  width: 100%;
 }
 
 body::-webkit-scrollbar-thumb {
@@ -43,3 +32,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 } */
+
+@media only screen and (min-width: 600px) {
+  #root {
+    display: flex;
+  }
+}

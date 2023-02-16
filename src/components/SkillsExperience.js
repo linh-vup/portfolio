@@ -1,4 +1,4 @@
-import '../styles/SkillsAndExperience.scss';
+import '../styles/Main.scss';
 
 const skillsList = [
   'HTML',
@@ -56,12 +56,13 @@ export default function SkillsExperience() {
         daily stand-ups, pair-programming, group projects and using agile
         delivery methods.
       </p>
-      <h4>Senior Content Creator at General Assembly (London)</h4>
-      <p className='experience-date'>10/2022 – 01/2023</p>
+      <h4>Senior Content Creator at Memrise (London)</h4>
+      <p className='experience-date'>08/2017 – 06/2022</p>
       <p>
         Created learning content for our mobile, desktop and social platforms. I
-        worked in cross-functional teams to release new engaging learning
-        features.
+        worked in cross-functional teams (with PMs, engineers, researchers and
+        designers) to release engaging new learning features. I also dabbled
+        with ASO for both App Store and Play Store.
       </p>
     </div>
   );

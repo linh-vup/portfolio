@@ -7,6 +7,21 @@ body {
   font-size: 16px;
 }
 
+#root {
+  /* display: flex; */
+  /* height: 100%; */
+  max-width: 1200px;
+}
+
+.main {
+  /* overflow-y: auto; */
+  // width: 65%;
+  margin-left: 16px;
+  margin: auto 16px;
+  height: 150vh;
+  /* margin-left: 35%; */
+}
+
 h1,
 h2,
 h3,
@@ -45,7 +60,7 @@ nav li {
 }
 
 .inner {
-  width: 90%;
+  // width: 90%;
   margin: 0px auto;
 }
 
@@ -65,7 +80,7 @@ nav li {
 .page-wrapper {
   padding-top: 64px;
   padding-bottom: 56px;
-  padding-left: 48px;
+  // padding-left: 48px;
 }
 
 .title {
@@ -100,4 +115,21 @@ nav li {
 
 .stack:hover {
   border-radius: 50%;
+}
+
+@media only screen and (min-width: 600px) {
+  #root {
+    display: flex;
+  }
+  .main {
+    margin: 0;
+    width: 65%; /* Set the width of the sidebar */
+  }
+  .inner {
+    width: 90%;
+    margin: 0px auto;
+  }
+  .page-wrapper {
+    padding-left: 48px;
+  }
 }

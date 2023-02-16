@@ -2,13 +2,13 @@ export default function About() {
   return (
     <div className='page-wrapper'>
       <h1 className='title'>About me</h1>
-      <h3>How it all started ...</h3>
+      <h3>How it all started</h3>
       <p>
-        It all started with Myspace. Once Tom was kicked from my top friends
+        It all started with Myspace. Once Tom was kicked from my top friends'
         list (sorry Tom), I spent all of my 1.55 Mbit/s internet time to
-        publicly (?!?) message friends and theme my profile. I'm pretty sure I
-        aced the HTML and CSS bit of my computer science class in school because
-        of the latter part. I really leveled up my game when Tumblr came around.
+        publicly (?!?) message friends and theme my profile. I really leveled up
+        my game when Tumblr came around, so going though the HTML and CSS lesson
+        in my computer science class in school was a breeze.
       </p>
       <p>
         But with no encouragement or role models for women in engineering, but
@@ -21,10 +21,10 @@ export default function About() {
       <p>
         Some of the mentioned very talented people were developers and with
         them, ideas turned into reality. I realised I wanted to do what they do,
-        so I took online online coding courses. Once I've confirmed that all
-        those lines of code made sense to me, I took a leap and enrolled in
-        General Assembly's Software Engineering Immersive course. And here I am
-        now, a Junior Software Engineer looking to create amazing things!
+        so I took online coding courses. Once I've confirmed that all those
+        lines of code made sense to me, I took a leap and enrolled in General
+        Assembly's Software Engineering Immersive course. And here I am now, a
+        Junior Software Engineer looking to create amazing new things!
       </p>
       <h3>Other things I love (next to coding)</h3>
       <ul>

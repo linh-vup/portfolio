@@ -1,4 +1,4 @@
-import '../styles/Portfolio.scss';
+import '../styles/Main.scss';
 
 export default function PortfolioProjectCard({
   image,

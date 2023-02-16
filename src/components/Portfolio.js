@@ -57,11 +57,14 @@ export default function Portfolio() {
           type={project.type}
           name={project.name}
           stack={project.stack.map((stack) => (
-            <p className='stack'>{stack}</p>
+            <p className='stack' key={stack}>
+              {stack}
+            </p>
           ))}
           description={project.description}
           link={project.link}
           githubLink={project.githubLink}
+          key={project.name}
         />
       ))}
     </div>
