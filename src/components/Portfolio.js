@@ -7,7 +7,8 @@ import project3Walkthrough from '../assets/project3_walkthrough1.gif';
 export default function Portfolio() {
   const projectDetails = [
     {
-      image: `${etrScreenshot}`,
+      image: require('../assets/etr_home.png'),
+      // image: `${etrScreenshot}`,
       type: 'Full-Stack',
       name: 'A Rainbow A Day',
       stack: ['React.js', 'Python', 'Django', 'PostreSQL'],
@@ -17,7 +18,8 @@ export default function Portfolio() {
       githubLink: 'https://github.com/linh-vup/ga-project-4-frontend'
     },
     {
-      image: `${project3Walkthrough}`,
+      image: require('../assets/project3_walkthrough1.gif'),
+      // image: `${project3Walkthrough}`,
       type: 'Full-Stack',
       name: 'Project 2',
       stack: ['React.js', 'Express.js', 'Node.js', 'MongoDB'],
@@ -27,7 +29,8 @@ export default function Portfolio() {
       githubLink: 'https://github.com/linh-vup/ga-project-3-frontend'
     },
     {
-      image: `${project2Walkthrough}`,
+      image: require('../assets/project2_walkthrough.gif'),
+      // image: `${project2Walkthrough}`,
       type: 'Frontend',
       name: 'Random Song From A Random Year',
       stack: ['React.js', 'Express.js', 'Node.js'],
@@ -37,7 +40,8 @@ export default function Portfolio() {
       githubLink: 'https://github.com/linh-vup/ga-project-2'
     },
     {
-      image: `${foxxersGif}`,
+      image: require('../assets/game_walkthrough.gif'),
+      // image: `${foxxersGif}`,
       type: 'JavaScript',
       name: 'Foxxers - A Frogger Game',
       stack: ['JavaScript', 'HTML', 'CSS'],
@@ -53,7 +57,7 @@ export default function Portfolio() {
       <p>Check out my latest projects:</p>
       {projectDetails.map((project) => (
         <PortfoliProjectCard
-          image={project.image}
+          image={project.image.default}
           type={project.type}
           name={project.name}
           stack={project.stack.map((stack) => (
