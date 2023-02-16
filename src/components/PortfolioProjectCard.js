@@ -19,7 +19,7 @@ export default function PortfolioProjectCard({
       <div className='project-image-container'>
         <img
           className='project-image'
-          src={require({ image })}
+          src={require({ image }).default}
           alt='Project Demonstration'
         />
       </div>
