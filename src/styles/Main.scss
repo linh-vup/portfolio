@@ -1,8 +1,7 @@
 .project-card {
   border: 2px solid #e4612e;
-  // max-width: 100%;
   padding: 16px;
-  margin: 24px 0;
+  margin: 8px 0 20px 0;
   border-radius: 16px;
 }
 
@@ -12,10 +11,14 @@
 }
 
 .project-image {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   object-fit: contain;
   border-radius: 10px;
+}
+
+.project-title {
+  padding-top: 2px;
 }
 
 .bold-span {

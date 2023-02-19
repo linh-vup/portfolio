@@ -2,6 +2,10 @@ ul {
   list-style: none;
 }
 
+nav a {
+  font-weight: 400;
+}
+
 .active {
   font-weight: 800;
 }
@@ -29,7 +33,7 @@ ul {
 
 .profile-picture {
   width: 120px;
-  margin-bottom: 36px;
+  margin-bottom: 12px;
 }
 
 // .image-background {

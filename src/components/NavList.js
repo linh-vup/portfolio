@@ -41,7 +41,7 @@ export default function NavList() {
               to='/skills-and-experience'
               style={({ isActive }) => (isActive ? activeStyle : undefined)}
             >
-              Skills and Experience
+              Skills + Experience
             </NavLink>
           </li>
           <li>

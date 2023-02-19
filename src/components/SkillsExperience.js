@@ -37,8 +37,8 @@ export default function SkillsExperience() {
       </p>
       <h3>Other Skills</h3>
       <p>
-        Content creation, localisation (translation and QA), App Store
-        Optimisation, teaching (German)
+        Content creation, localisation, translation, QA, App Store Optimisation,
+        teaching German
       </p>
       <h3>Experience</h3>
       <h4>
@@ -60,9 +60,9 @@ export default function SkillsExperience() {
       <p className='experience-date'>08/2017 – 06/2022</p>
       <p>
         Created learning content for our mobile, desktop and social platforms. I
-        worked in cross-functional teams (with PMs, engineers, researchers and
-        designers) to release engaging new learning features. I also dabbled
-        with ASO for both App Store and Play Store.
+        worked in cross-functional teams with PMs, engineers, researchers and
+        designers to release engaging new learning features. I also dabbled with
+        ASO for both App Store and Play Store.
       </p>
     </div>
   );

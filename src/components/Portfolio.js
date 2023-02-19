@@ -1,4 +1,4 @@
-import PortfoliProjectCard from './PortfolioProjectCard';
+import PortfolioProjectCard from './PortfolioProjectCard';
 import etrScreenshot from '../assets/etr_home.png';
 import foxxersGif from '../assets/game_walkthrough.gif';
 import project2Walkthrough from '../assets/project2_walkthrough.gif';
@@ -21,7 +21,7 @@ export default function Portfolio() {
       image: require('../assets/project3_walkthrough1.gif'),
       // image: `${project3Walkthrough}`,
       type: 'Full-Stack',
-      name: 'Project 2',
+      name: 'Tazty Alternativez',
       stack: ['React.js', 'Express.js', 'Node.js', 'MongoDB'],
       description:
         'One Week - Group Project: A vegan alternative food products review platform using React, Express.js, Node.js and MongoDB. It’s a full-stack application using our own REST API and MUI as a component library. I was responsible for building the index and product show pages, functionality to edit products based on user authentication, as well as implementing a filter and search functionality.',
@@ -56,7 +56,7 @@ export default function Portfolio() {
       <h1 className='title'>Portfolio</h1>
       <p>Check out my latest projects:</p>
       {projectDetails.map((project) => (
-        <PortfoliProjectCard
+        <PortfolioProjectCard
           image={project.image}
           type={project.type}
           name={project.name}
