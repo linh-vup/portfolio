@@ -22,10 +22,10 @@ export default function NavList() {
 
           <li>
             <NavLink
-              to='/portfolio'
+              to='/projects'
               style={({ isActive }) => (isActive ? activeStyle : undefined)}
             >
-              Portfolio
+              Projects
             </NavLink>
           </li>
           <li>

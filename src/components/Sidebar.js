@@ -4,9 +4,9 @@ import profile from '../assets/profile.png';
 
 export default function Sidebar() {
   const aboutMeFacts = [
-    'Mainly Frontend',
-    'Some Backend',
-    'Prev. Content & Localisation',
+    'Full-Stack',
+    'React.js',
+    'Previously Content & Localisation',
     'London-Based',
     'Chicken Pho Connoisseur'
   ];

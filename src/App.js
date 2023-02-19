@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import Portfolio from './components/Portfolio';
+import Projects from './components/Projects';
 import SkillsExperience from './components/SkillsExperience';
 import Sidebar from './components/Sidebar';
 import About from './components/About';
@@ -18,7 +18,7 @@ function App() {
         <div className='inner'>
           <Routes>
             <Route path='/' element={<Home />} />
-            <Route path='/portfolio' element={<Portfolio />} />
+            <Route path='/projects' element={<Projects />} />
             <Route path='/about-me' element={<About />} />
             <Route
               path='/skills-and-experience'

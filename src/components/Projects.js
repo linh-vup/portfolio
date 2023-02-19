@@ -1,10 +1,10 @@
-import PortfolioProjectCard from './PortfolioProjectCard';
+import ProjectCard from './ProjectCard';
 import etrScreenshot from '../assets/etr_home.png';
 import foxxersGif from '../assets/game_walkthrough.gif';
 import project2Walkthrough from '../assets/project2_walkthrough.gif';
 import project3Walkthrough from '../assets/project3_walkthrough1.gif';
 
-export default function Portfolio() {
+export default function Projects() {
   const projectDetails = [
     {
       image: require('../assets/etr_home.png'),
@@ -53,10 +53,10 @@ export default function Portfolio() {
   ];
   return (
     <div className='page-wrapper'>
-      <h1 className='title'>Portfolio</h1>
+      <h1 className='title'>Projects</h1>
       <p>Check out my latest projects:</p>
       {projectDetails.map((project) => (
-        <PortfolioProjectCard
+        <ProjectCard
           image={project.image}
           type={project.type}
           name={project.name}

@@ -1,6 +1,6 @@
 import '../styles/Main.scss';
 
-export default function PortfolioProjectCard({
+export default function ProjectCard({
   image,
   type,
   name,
