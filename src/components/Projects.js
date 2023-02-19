@@ -53,7 +53,7 @@ export default function Projects() {
   ];
   return (
     <div className='page-wrapper'>
-      <h1 className='title'>Projects</h1>
+      <h1 className='title'>Portfolio</h1>
       <p>Check out my latest projects:</p>
       {projectDetails.map((project) => (
         <ProjectCard

@@ -1,6 +1,5 @@
 import '../styles/Sidebar.scss';
 import NavList from './NavList';
-import profile from '../assets/profile.png';
 
 export default function Sidebar() {
   const aboutMeFacts = [

@@ -5,7 +5,6 @@ import SkillsExperience from './components/SkillsExperience';
 import Sidebar from './components/Sidebar';
 import About from './components/About';
 import Contact from './components/Contact';
-import Home from './components/Home';
 
 import './styles/App.scss';
 
@@ -17,8 +16,8 @@ function App() {
       <div className='main'>
         <div className='inner'>
           <Routes>
-            <Route path='/' element={<Home />} />
-            <Route path='/projects' element={<Projects />} />
+            <Route path='/' element={<Projects />} />
+            {/* <Route path='/projects' element={<Projects />} /> */}
             <Route path='/about-me' element={<About />} />
             <Route
               path='/skills-and-experience'
