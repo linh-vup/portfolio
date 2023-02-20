@@ -3,7 +3,7 @@ import ProjectCard from './ProjectCard';
 export default function Projects() {
   const projectDetails = [
     {
-      image: require('../assets/project4_walkthrough.gif'),
+      video: require('../assets/project4_walkthrough.mp4'),
       type: 'Full-Stack',
       name: 'A Rainbow A Day',
       stack: ['React.js', 'Python', 'Django', 'PostreSQL'],
@@ -13,7 +13,7 @@ export default function Projects() {
       githubLink: 'https://github.com/linh-vup/ga-project-4-frontend'
     },
     {
-      image: require('../assets/project3_walkthrough1.gif'),
+      video: require('../assets/project3_walkthrough.mp4'),
       type: 'Full-Stack',
       name: 'Tazty Alternativez',
       stack: ['React.js', 'Express.js', 'Node.js', 'MongoDB'],
@@ -23,7 +23,7 @@ export default function Projects() {
       githubLink: 'https://github.com/linh-vup/ga-project-3-frontend'
     },
     {
-      image: require('../assets/project2_walkthrough.gif'),
+      video: require('../assets/project2_walkthrough.mp4'),
       type: 'Frontend',
       name: 'Random Song From A Random Year',
       stack: ['React.js', 'Express.js', 'Node.js'],
@@ -33,7 +33,7 @@ export default function Projects() {
       githubLink: 'https://github.com/linh-vup/ga-project-2'
     },
     {
-      image: require('../assets/game_walkthrough.gif'),
+      video: require('../assets/project1_walkthrough.mp4'),
       type: 'JavaScript',
       name: 'Foxxers - A Frogger Game',
       stack: ['JavaScript', 'HTML', 'CSS'],
@@ -49,7 +49,7 @@ export default function Projects() {
       <p>Check out my latest projects:</p>
       {projectDetails.map((project) => (
         <ProjectCard
-          image={project.image}
+          video={project.video}
           type={project.type}
           name={project.name}
           stack={project.stack.map((stack) => (

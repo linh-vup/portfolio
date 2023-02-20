@@ -1,7 +1,7 @@
 import '../styles/Main.scss';
 
 export default function ProjectCard({
-  image,
+  video,
   type,
   name,
   stack,
@@ -12,11 +12,14 @@ export default function ProjectCard({
   return (
     <div className='project-card'>
       <div className='project-image-container'>
-        <img
+        {/* <img
           className='project-image'
           src={image}
           alt='Project Demonstration'
-        />
+        /> */}
+        <video className='project-image' autoPlay muted loop>
+          <source src={video} type='video/mp4' />
+        </video>
       </div>
 
       <div className='project-body'>
