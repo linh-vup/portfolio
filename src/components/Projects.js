@@ -28,7 +28,7 @@ export default function Projects() {
       name: 'Random Song From A Random Year',
       stack: ['React.js', 'Express.js', 'Node.js'],
       description:
-        '48 Hours - Group Project: A pair-programming hackathon where we built a frontend application using React, Express.js and Node.js and utilised the public Napster API to create an app that suggests a random song from a user’s selected year. My focus was on implementing the general website structure and creating the individual song page and implementing the correct API endpoint call. For this project, we used Bulma as our CSS framework.',
+        '48 Hours - Group Project: A pair-programming hackathon where we built a frontend application using React, Express.js and Node.js and utilised the public Napster API to create an app that suggests a random song from a user’s selected year. My focus was on implementing the general website structure, creating the individual song page and implementing the correct API endpoint call. For this project, we used Bulma as our CSS framework.',
       link: 'https://randosongsrandoyears.netlify.app/',
       githubLink: 'https://github.com/linh-vup/ga-project-2'
     },
