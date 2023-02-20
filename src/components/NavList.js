@@ -5,21 +5,10 @@ export default function NavList() {
     fontWeight: '800'
   };
 
-  // let activeClassName = 'underline';
-
   return (
     <>
       <nav>
         <ul>
-          {/* <li>
-            <NavLink
-              to='/'
-              style={({ isActive }) => (isActive ? activeStyle : undefined)}
-            >
-              Home
-            </NavLink>
-          </li> */}
-
           <li>
             <NavLink
               to='/'
