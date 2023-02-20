@@ -14,7 +14,6 @@ $color-accent: #e4612e;
 body {
   font-family: 'Jost', sans-serif;
   line-height: 1.5em;
-  font-size: 16px;
   color: $color-text;
 }
 
@@ -82,7 +81,7 @@ nav li {
 
 .page-title {
   @include display-font;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 400;
   margin-bottom: 8px;
 }
@@ -95,7 +94,7 @@ nav li {
 
 .title {
   @include display-font;
-  font-size: 28px;
+  font-size: 1.75rem;
   margin-bottom: 24px;
 }
 
@@ -106,7 +105,7 @@ nav li {
 }
 
 .stack {
-  font-size: 11px;
+  font-size: 0.75rem;
   margin: 0 4px 8px 0;
   padding: 4px 14px;
   border-radius: 32px;
