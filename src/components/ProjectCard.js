@@ -12,11 +12,6 @@ export default function ProjectCard({
   return (
     <div className='project-card'>
       <div className='project-image-container'>
-        {/* <img
-          className='project-image'
-          src={image}
-          alt='Project Demonstration'
-        /> */}
         <video className='project-image' autoPlay muted loop>
           <source src={video} type='video/mp4' />
         </video>
@@ -28,7 +23,7 @@ export default function ProjectCard({
         <div className='stack-container'>{stack}</div>
         <p>{description}</p>
         <div className='project-links'>
-          <a href={link}>
+          <a href={link} alt='link icon'>
             <svg
               width='28'
               height='28'
@@ -42,7 +37,7 @@ export default function ProjectCard({
               />
             </svg>
           </a>
-          <a href={githubLink}>
+          <a href={githubLink} alt='github icon'>
             <svg
               width='28'
               height='28'
