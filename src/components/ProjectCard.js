@@ -23,7 +23,7 @@ export default function ProjectCard({
         <div className='stack-container'>{stack}</div>
         <p>{description}</p>
         <div className='project-links'>
-          <a href={link} alt='link icon'>
+          <a href={link} aria-label='link icon'>
             <svg
               width='28'
               height='28'
@@ -37,7 +37,7 @@ export default function ProjectCard({
               />
             </svg>
           </a>
-          <a href={githubLink} alt='github icon'>
+          <a href={githubLink} aria-label='github icon'>
             <svg
               width='28'
               height='28'
