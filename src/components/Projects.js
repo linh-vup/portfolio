@@ -1,5 +1,4 @@
 import ProjectCard from './ProjectCard';
-import projectThreeWalkthrough from '../assets/project3_walkthrough.mp4';
 
 export default function Projects() {
   const projectDetails = [
@@ -16,7 +15,7 @@ export default function Projects() {
     },
     {
       // video: require('../assets/project3_walkthrough.mp4'),
-      video: `${projectThreeWalkthrough}`,
+      video: 'https://i.imgur.com/e7BJm8v.mp4',
       type: 'Full-Stack',
       name: 'Tazty Alternativez',
       stack: ['React.js', 'Express.js', 'Node.js', 'MongoDB'],
@@ -26,7 +25,8 @@ export default function Projects() {
       githubLink: 'https://github.com/linh-vup/ga-project-3-frontend'
     },
     {
-      video: require('../assets/project2_walkthrough.mp4'),
+      // video: require('../assets/project2_walkthrough.mp4'),
+      video: 'https://i.imgur.com/6RqQ3pz.mp4',
       type: 'Frontend',
       name: 'Random Song From A Random Year',
       stack: ['React.js', 'Express.js', 'Node.js'],
@@ -36,7 +36,8 @@ export default function Projects() {
       githubLink: 'https://github.com/linh-vup/ga-project-2'
     },
     {
-      video: require('../assets/project1_walkthrough.mp4'),
+      // video: require('../assets/project1_walkthrough.mp4'),
+      video: 'https://i.imgur.com/j9s4b2W.mp4',
       type: 'JavaScript',
       name: 'Foxxers - A Frogger Game',
       stack: ['JavaScript', 'HTML', 'CSS'],

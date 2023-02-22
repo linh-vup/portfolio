@@ -16,7 +16,7 @@ export default function Sidebar() {
     <div className='sidebar'>
       <img
         className='profile-picture'
-        src={require('../assets/profile.png')}
+        src='https://res.cloudinary.com/dhpiu3mpp/image/upload/v1677087792/portfolio/profile_sjn6ro.png'
         alt='Me'
       />
       <h1 className='page-title'>Linh Vu</h1>
