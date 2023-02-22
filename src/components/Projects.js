@@ -1,9 +1,11 @@
 import ProjectCard from './ProjectCard';
+import projectThreeWalkthrough from '../assets/project3_walkthrough.mp4';
 
 export default function Projects() {
   const projectDetails = [
     {
-      video: require('../assets/project4_walkthrough.mp4'),
+      // video: require('../assets/project4_walkthrough.mp4'),
+      video: 'https://i.imgur.com/4rY3vik.mp4',
       type: 'Full-Stack',
       name: 'A Rainbow A Day',
       stack: ['React.js', 'Python', 'Django', 'PostreSQL'],
@@ -13,7 +15,8 @@ export default function Projects() {
       githubLink: 'https://github.com/linh-vup/ga-project-4-frontend'
     },
     {
-      video: require('../assets/project3_walkthrough.mp4'),
+      // video: require('../assets/project3_walkthrough.mp4'),
+      video: `${projectThreeWalkthrough}`,
       type: 'Full-Stack',
       name: 'Tazty Alternativez',
       stack: ['React.js', 'Express.js', 'Node.js', 'MongoDB'],
