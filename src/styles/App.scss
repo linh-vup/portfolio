@@ -18,18 +18,12 @@ body {
 }
 
 #root {
-  /* display: flex; */
-  /* height: 100%; */
   max-width: 1200px;
 }
 
 .main {
-  /* overflow-y: auto; */
-  // width: 65%;
   margin-left: 16px;
   margin: auto 16px;
-  height: 150vh;
-  /* margin-left: 35%; */
 }
 
 h1,
@@ -64,6 +58,7 @@ ul {
 li {
   padding: 2px 0;
   list-style: none;
+  text-decoration: none;
 }
 
 nav li {
@@ -71,7 +66,6 @@ nav li {
 }
 
 .inner {
-  // width: 90%;
   margin: 0px auto;
 }
 
@@ -89,7 +83,6 @@ nav li {
 .page-wrapper {
   padding-top: 24px;
   padding-bottom: 56px;
-  // padding-left: 48px;
 }
 
 .title {
@@ -133,8 +126,7 @@ nav li {
     width: 65%;
   }
   .inner {
-    width: 90%;
-    margin: 0px auto;
+    margin-right: 32px;
   }
   .page-wrapper {
     padding-left: 48px;

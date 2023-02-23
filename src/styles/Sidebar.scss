@@ -1,6 +1,4 @@
-ul {
-  list-style: none;
-}
+@use 'App';
 
 nav a {
   font-weight: 400;
@@ -13,16 +11,8 @@ nav a {
 .sidebar {
   padding-top: 56px;
   margin-left: 16px;
-  // width: 35%; /* Set the width of the sidebar */
   display: flex;
   flex-direction: column;
-  // position: fixed;
-  // height: 50vh; /* Full-height: remove this if you want "auto" height */
-  // overflow: auto;
-  // position: -webkit-sticky;
-  // position: sticky; /* Fixed Sidebar (stay in place on scroll) */
-  // top: 0;
-  // flex: 1 0 10%;
 }
 
 .facts {
@@ -39,8 +29,13 @@ nav a {
 
 @media only screen and (min-width: 600px) {
   .sidebar {
-    width: 35%; /* Set the width of the sidebar */
-    position: sticky; /* Fixed Sidebar (stay in place on scroll) */
+    max-width: 35%;
+    position: sticky;
+    position: -webkit-sticky;
     top: 0;
+    align-self: flex-start;
+    height: 90vh;
+    overflow-y: scroll;
+    margin-left: 32px;
   }
 }
