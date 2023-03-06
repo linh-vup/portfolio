@@ -10,7 +10,7 @@ export default function Sidebar() {
     'Chicken Pho Connoisseur'
   ];
 
-  console.log(`Oh hi there! Hope you're not looking for errors`);
+  console.log(`Oh hi there!`);
 
   return (
     <div className='sidebar'>

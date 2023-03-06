@@ -16,7 +16,7 @@ export default function Contact() {
         <li>
           <span>👋 Or connect with me through: </span>
           <a href='https://www.linkedin.com/in/linhvup/'>LinkedIn</a> |{' '}
-          <a href='https://github.com/linh-vup'>Github</a>
+          <a href='https://github.com/linh-vup'>GitHub</a>
         </li>
       </ul>
 
