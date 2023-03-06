@@ -8,8 +8,7 @@ export default function Projects() {
       type: 'Full-Stack',
       name: 'A Rainbow A Day',
       stack: ['React.js', 'Python', 'Django', 'PostreSQL'],
-      description:
-        'One Week - Solo Project: A food tracker full-stack application based on the “eat a rainbow” food guide. The backend was built using Django, Python and PostgreSQL, while the frontend was built using React. Users can log their daily diet by adding or removing choices from a given food list, as well as seeing logs for other days and an overview of all foods ever logged. I also focused on making the experience engaging with playful features showing their progress and a colourful design.',
+      description: `One Week - Solo Project: A food tracker full-stack application based on the “eat a rainbow” food guide. The backend was built using Django, Python and PostgreSQL, while the frontend was built using React. Users can log their daily diet by adding or removing choices from a given food list, as well as seeing logs for other days and an overview of all foods ever logged. I also focused on making the experience engaging with playful features showing their progress and a colourful design. Test account: 'testme@testme.com', Password: 'Password!1'`,
       link: 'https://a-rainbow-a-day.netlify.app/',
       githubLink: 'https://github.com/linh-vup/ga-project-4-frontend'
     },
@@ -19,8 +18,7 @@ export default function Projects() {
       type: 'Full-Stack',
       name: 'Tazty Alternativez',
       stack: ['React.js', 'Express.js', 'Node.js', 'MongoDB'],
-      description:
-        'One Week - Group Project: A vegan alternative food products review platform using React, Express.js, Node.js and MongoDB. It’s a full-stack application using our own REST API and MUI as a component library. I was responsible for building the index and product show pages, functionality to edit products based on user authentication, as well as implementing a filter and search functionality.',
+      description: `One Week - Group Project: A vegan alternative food products review platform using React, Express.js, Node.js and MongoDB. It’s a full-stack application using our own REST API and MUI as a component library. I was responsible for building the index and product show pages, functionality to edit products based on user authentication, as well as implementing a filter and search functionality.Test account: 'testme@testme.com', Password: 'Password!1'`,
       link: 'https://tazty-alternativez.netlify.app/',
       githubLink: 'https://github.com/linh-vup/ga-project-3-frontend'
     },
